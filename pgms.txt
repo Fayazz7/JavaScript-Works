@@ -1,0 +1,14 @@
+prime number
+armstrong
+fibinocci
+vowelcount
+consanant count
+paalindrome
+anagram
+kangarooword
+panagram
+longest subsequesnce paalindri=ome
+most freaquesnt
+common numbers from two array
+two pair sum
+binary search
