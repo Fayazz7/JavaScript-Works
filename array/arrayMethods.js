@@ -14,3 +14,6 @@ var array=[10,20,30,40,50,40]
 
 // array.shift() //.shift() method is used to remove first element of an array
 // console.log(array);
+
+// array.reverse() //used to reverse an array
+// console.log(array);
