@@ -17,3 +17,6 @@ var array=[10,20,30,40,50,40]
 
 // array.reverse() //used to reverse an array
 // console.log(array);
+
+// var joinedArray=array.join() //used to join array values
+// console.log(array);
