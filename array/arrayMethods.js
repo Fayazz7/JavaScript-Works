@@ -12,5 +12,5 @@ var array=[10,20,30,40,50,40]
 // array.pop() //.pop method is used to remove last element of an array
 // console.log(array);
 
-array.shift() //.shift() method is used to remove first element of an array
-console.log(array);
+// array.shift() //.shift() method is used to remove first element of an array
+// console.log(array);
