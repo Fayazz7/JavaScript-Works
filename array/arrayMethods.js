@@ -1,7 +1,8 @@
 // Array Methods
 
 
-var array=[10,20,30,40,50,40]
+
+var array=[10,20,30,40,50,40,100]
 
 // array.push(100) //push method is used to add an element at the end of an array
 // console.log(array);
