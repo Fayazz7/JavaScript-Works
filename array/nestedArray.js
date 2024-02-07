@@ -16,4 +16,8 @@ var costly=data.reduce((o1,o2)=>o1[1]>o2[1]?o1:o2)
 //How to set an Array descending order using Sort() Method
 
 var descending=data.sort((o1,o2)=>o2[1]-o1[1])
-console.log(descending);
+// console.log(descending);
+
+//to Change Ascending order
+var descending=data.sort((o1,o2)=>o1[1]-o2[1])
+// console.log(descending);
