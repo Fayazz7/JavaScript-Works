@@ -20503,16 +20503,24 @@ var data = [
 
 displayCountries(data)
 
-function displayCountries() {
+function displayCountries(data) {
     let cData = ``; // Initialize cData as an empty string
+
     for (const c of data) { // Use const to declare c to avoid accidental reassignment
+        let languagesArray = []
+        if (c.languages.length > 0) {
+            for (let lang of c.languages) {
+                languagesArray.push(lang.name)
+            }
+        }
         cData += `
         <div class="col">
             <div class="card">
-                <img src="${c.flags.png}" class="card-img-top" alt="...">
+                <img src="${c.flag}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${c.name}</h5>
-                    <p class="card-text">${c.capital}</p>
+                    <p class="card-text">${languagesArray}</p>
+                    <p class="card-text">${c.currencies?.map(o => o.name)}</p>  
                 </div>
             </div>
         </div>`;
